@@ -1,0 +1,1 @@
+# dockerised_atlassian_solution
