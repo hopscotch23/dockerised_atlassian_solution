@@ -1,18 +1,20 @@
 # dockerised_atlassian_solution
 Objectives:
  : Starting up Jira, Confluence and Bitbucket on your client machine using Docker
-  : Installing each single product
-   : Setting up integrations between products
+ : Installing each single product
+ : Setting up integrations between products
   
 1. Install Docker (may require bios tweak to enable secure vm building)
 2. open command prompt (win + r then "cmd")
-	`docker run -d -p 8080:8080 atlassian/jira-software:latest`
-	`docker run -d -p 8090:8090 atlassian/confluence-server:latest`
-	`docker run -d -p 8095:8095 atlassian/crowd:latest`
+```powershell
+	docker run -d -p 8080:8080 atlassian/jira-software:latest
+	docker run -d -p 8090:8090 atlassian/confluence-server:latest
+	docker run -d -p 8095:8095 atlassian/crowd:latest
+```
 
 >jira : http://localhost:8080
 >confluence : http://localhost:8090
->crowd: http://localhost:8095
+>crowd : http://localhost:8095
 
 3. Set up each instance in an evaluation mode, following the steps in the set up guide.
 
