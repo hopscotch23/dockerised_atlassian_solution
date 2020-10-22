@@ -4,7 +4,7 @@ Objectives:
  : Installing each single product
  : Setting up integrations between products
   
-1. Install Docker (may require bios tweak to enable secure vm building)
+1. Install [Docker](https://www.docker.com/products/docker-desktop) (may require bios tweak to enable secure vm building)
 2. open command prompt (win + r then "cmd")
 ```powershell
 	docker run -d -p 8080:8080 atlassian/jira-software:latest
